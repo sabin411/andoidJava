@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">googlelogin</string>
+    <string name="googlesigning">894542828299-5aj4flh545m7ak9k2m7g3g098rgrr2ju.apps.googleusercontent.com</string>
+    <string name="JourneyJournal">Journey-Journal</string>
+    <string name="Login">Log In</string>
+    <string name="journeyTitle">Enter your journal</string>
+    <string name="titleHint">Enter Journey title</string>
+    <string name="descriptionHint">Description</string>
+    <string name="yourLocation">Your Location</string>
+</resources>
+
