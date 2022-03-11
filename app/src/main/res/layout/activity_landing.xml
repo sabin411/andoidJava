@@ -61,7 +61,7 @@
             />
         <com.google.android.material.button.MaterialButton
             android:paddingTop="10dp"
-            android:id="@+id/signup"
+            android:id="@+id/signupBtn"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"

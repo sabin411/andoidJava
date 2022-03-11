@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@id/description">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/location"
+            android:id="@+id/txtLocation"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"
@@ -72,7 +72,8 @@
             android:textSize="15dp"
             android:text="@string/yourLocation"/>
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/addLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_add_location_24" />
@@ -80,6 +81,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveJournal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/layoutLocation"

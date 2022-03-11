@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.googlelogin">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -12,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Googlelogin">
+        <activity
+            android:name=".SignupPage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -27,6 +34,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 
+        <activity
+            android:name=".ActivityLocationAccess"
+            android:exported="false"
+            android:label="@string/title_activity_location_access" />
         <activity
             android:name=".LandingActivity"
             android:exported="true">

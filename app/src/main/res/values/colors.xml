@@ -10,4 +10,7 @@
     <color name="primaryBlue">#263238</color>
     <color name="primaryColor">#92E3A9</color>
     <color name="primaryGrey">#EBEBEB</color>
+    <color name="red">#F44336</color>
+    <color name="fontBlueColor">#10153A</color>
+    <color name="fadedBlack">#999999</color>
 </resources>

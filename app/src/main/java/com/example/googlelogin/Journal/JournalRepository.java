@@ -19,7 +19,7 @@ public class JournalRepository {
         this.db = JourneyDatabase.getInstances(context);
         journalDao = db.journalDao();
     }
-    long insertJournal(Journal journal){
+    public long insertJournal(Journal journal){
     return journalDao.insertJournal(journal);
     }
 

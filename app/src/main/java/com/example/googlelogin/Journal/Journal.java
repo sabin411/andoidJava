@@ -16,7 +16,7 @@ public class Journal {
     @PrimaryKey(autoGenerate = true)
     private int id;
 
-    public Journal(String title, String description, String image, double lat, double lng, int id, String date) {
+    public Journal(String title, String description, String image, String date, double lat, double lng, int id) {
         this.title = title;
         this.description = description;
         this.image = image;
@@ -24,8 +24,10 @@ public class Journal {
         this.lng = lng;
         this.id = id;
         this.date = date;
+    }
 
-
+    public String getDate() {
+        return date;
     }
 
     public String getTitle() {
@@ -50,9 +52,5 @@ public class Journal {
 
     public int getId() {
         return id;
-    }
-
-    public String getDate() {
-        return date;
     }
 }

@@ -7,5 +7,17 @@
     <string name="titleHint">Enter Journey title</string>
     <string name="descriptionHint">Description</string>
     <string name="yourLocation">Your Location</string>
+    <string name="title_activity_location_access">LocationAccess</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Signup">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="headerTitle">Here Take\nYour First\n Step</string>
+    <string name="WelcomeBackTxt">Welcome Back</string>
+    <string name="loginHeader">Login</string>
+    <string name="forgotPassword">Forgot your password?</string>
 </resources>
 

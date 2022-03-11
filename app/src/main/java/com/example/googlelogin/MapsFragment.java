@@ -37,24 +37,21 @@ public class MapsFragment extends Fragment {
         }
     };
 
+    @Nullable
     @Override
-    protected
-
-   @Override
-    public void onMapReady(@NonNull GoogleMap googleMap) {
-       LatLng sydney = new LatLng(lat,lng);
-       googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-       googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-
-       googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-           @Override
-           public void onMapClick(@NonNull LatLng latLng) {
-               googleMap.addMarker(new MarkerOptions().position(LatLng).title("Marker in Sydney"));
-               googleMap.moveCamera(CameraUpdateFactory.newLatLng(LatLng));
-           }
-       });
-   }
-
-
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_maps, container, false);
     }
-u}
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        SupportMapFragment mapFragment =
+                (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
+        if (mapFragment != null) {
+            mapFragment.getMapAsync(callback);
+        }
+    }
+}
