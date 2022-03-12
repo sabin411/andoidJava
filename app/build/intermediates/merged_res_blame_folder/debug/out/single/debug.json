@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable-v24_account.gif.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/drawable-v24/account.gif"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_location_access.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_location_access.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/xml_provider_path.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/xml/provider_path.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable_ic_baseline_add_location_24.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/drawable/ic_baseline_add_location_24.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_landing.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_landing.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_login_page.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable-v24_opt.png.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/drawable-v24/opt.png"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_signup_page.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_signup_page.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_fragment_maps.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_googlelogin.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_googlelogin.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable-v24_traveling_gif.gif.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/drawable-v24/traveling_gif.gif"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/layout_activity_entry_journal.xml.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_entry_journal.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

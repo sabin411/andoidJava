@@ -1,0 +1,401 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+MERGED from [androidx.databinding:viewbinding:7.1.1] /home/sabin/.gradle/caches/transforms-3/ae6834c8ac7ed618868b4f971ad9d5ee/transformed/viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] /home/sabin/.gradle/caches/transforms-3/6b1551fc7e84f44babff69c38bfda24d/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sabin/.gradle/caches/transforms-3/42554302d7e2a639aa8b03e65179d213/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/sabin/.gradle/caches/transforms-3/f324e1adefacacfb58867167829775f5/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /home/sabin/.gradle/caches/transforms-3/ae897557e68045f1818f360e6ec10ba3/transformed/android-gif-drawable-1.2.19/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sabin/.gradle/caches/transforms-3/8ce0df73a59e558f575414d609d36b92/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/sabin/.gradle/caches/transforms-3/7857cd03ef053b110ff12690706d44ba/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/ae43e59ee27e8ac602ccb852bea482eb/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sabin/.gradle/caches/transforms-3/750b143fec3a4c9c4120ee33db11b43c/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sabin/.gradle/caches/transforms-3/9738cc9f124e67c188d3a239feada12a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/sabin/.gradle/caches/transforms-3/b38068b7019bea5cee41f2c664c3487b/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/sabin/.gradle/caches/transforms-3/c26d442db09d0d08f0a5238a31b14aaa/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/sabin/.gradle/caches/transforms-3/f4eb0461f97686bee9c51896bf0ef074/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sabin/.gradle/caches/transforms-3/6d8d3f4c3fc45e4e213069df0a465897/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sabin/.gradle/caches/transforms-3/f8b08c5921bc817d4f76a796e2580acf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sabin/.gradle/caches/transforms-3/a0a92f0d5b3d431fc6c0b251d6804705/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sabin/.gradle/caches/transforms-3/b390e281cbfffde679d2982762867c3f/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sabin/.gradle/caches/transforms-3/819436423a2822097c55a5ac38231da2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sabin/.gradle/caches/transforms-3/6a28cd330caff2e53e1e642b857fa805/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sabin/.gradle/caches/transforms-3/3da911e04a328fe13048bd5e2f69e7f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sabin/.gradle/caches/transforms-3/6ef1b7ae5d7044c182a5a09a002b1c8f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sabin/.gradle/caches/transforms-3/22a96163e48a9af14aeecda496ee28cf/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sabin/.gradle/caches/transforms-3/fa53f186f02498d1359cc0706b9c9ca7/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/sabin/.gradle/caches/transforms-3/575010955cd06a2118a242e53bb9a703/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sabin/.gradle/caches/transforms-3/479bfc522e1288c72f980d0199956bed/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sabin/.gradle/caches/transforms-3/d0c36b56ee045d975d62935e55b6ab78/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sabin/.gradle/caches/transforms-3/ff5bb29851bee9e462bc577cda0460c7/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sabin/.gradle/caches/transforms-3/a871b9e8c411ce33d64773efd6088966/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sabin/.gradle/caches/transforms-3/0e4b3ed69ba1d5ef69295186a3ec6b84/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/sabin/.gradle/caches/transforms-3/c55275c1c19fa4063dbf60730870a8bc/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/sabin/.gradle/caches/transforms-3/35edd43b70decba91a37320c9bfd2a18/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sabin/.gradle/caches/transforms-3/660fb327dde20171876adbf1f31eb174/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sabin/.gradle/caches/transforms-3/4ffc9a8ad02c91f73376e476591128f2/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sabin/.gradle/caches/transforms-3/a464403484bdac61ef3cf53dec336102/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sabin/.gradle/caches/transforms-3/fe7a914480ce42aea2fa390501691159/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/sabin/.gradle/caches/transforms-3/6263b7f6c46bc9215157cb5b58cc5c0a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sabin/.gradle/caches/transforms-3/e0ceb94277256599d652d7b596f3a17a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sabin/.gradle/caches/transforms-3/63a69ce68fa557e382b8a43f04a2feb0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sabin/.gradle/caches/transforms-3/595962d6a0a0709ee60c9d883226ca12/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sabin/.gradle/caches/transforms-3/b647bbc2c3b0e3c8c570d50953c65e7e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sabin/.gradle/caches/transforms-3/a5a7311960bf5c1bff5fb80410424df2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sabin/.gradle/caches/transforms-3/5935097190010156f23c456f5b50117c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] /home/sabin/.gradle/caches/transforms-3/468512020edc2ae759b45f92b083406a/transformed/relinker-1.3.1/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:9:5-71:19
+MERGED from [com.google.android.material:material:1.5.0] /home/sabin/.gradle/caches/transforms-3/6b1551fc7e84f44babff69c38bfda24d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /home/sabin/.gradle/caches/transforms-3/6b1551fc7e84f44babff69c38bfda24d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sabin/.gradle/caches/transforms-3/42554302d7e2a639aa8b03e65179d213/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sabin/.gradle/caches/transforms-3/42554302d7e2a639aa8b03e65179d213/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sabin/.gradle/caches/transforms-3/750b143fec3a4c9c4120ee33db11b43c/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sabin/.gradle/caches/transforms-3/750b143fec3a4c9c4120ee33db11b43c/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sabin/.gradle/caches/transforms-3/660fb327dde20171876adbf1f31eb174/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sabin/.gradle/caches/transforms-3/660fb327dde20171876adbf1f31eb174/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:15:9-49
+activity#com.example.googlelogin.SignupPage
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:17:13-39
+activity#com.example.googlelogin.LoginPage
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:20:13-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:33:9-35:44
+	android:value
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:35:13-41
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:34:13-58
+activity#com.example.googlelogin.ActivityLocationAccess
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:37:9-40:70
+	android:label
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:40:13-67
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:38:13-51
+activity#com.example.googlelogin.LandingActivity
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:41:9-49:20
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:42:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:27-74
+activity#com.example.googlelogin.ActivityEntryJournal
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:51:13-49
+activity#com.example.googlelogin.googlelogin
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:59:9-61:39
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:60:13-40
+activity#com.example.googlelogin.MainActivity
+ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:62:9-70:20
+	android:exported
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:63:13-41
+uses-sdk
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.1] /home/sabin/.gradle/caches/transforms-3/ae6834c8ac7ed618868b4f971ad9d5ee/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.1] /home/sabin/.gradle/caches/transforms-3/ae6834c8ac7ed618868b4f971ad9d5ee/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] /home/sabin/.gradle/caches/transforms-3/6b1551fc7e84f44babff69c38bfda24d/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /home/sabin/.gradle/caches/transforms-3/6b1551fc7e84f44babff69c38bfda24d/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sabin/.gradle/caches/transforms-3/42554302d7e2a639aa8b03e65179d213/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sabin/.gradle/caches/transforms-3/42554302d7e2a639aa8b03e65179d213/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/sabin/.gradle/caches/transforms-3/f324e1adefacacfb58867167829775f5/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/sabin/.gradle/caches/transforms-3/f324e1adefacacfb58867167829775f5/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /home/sabin/.gradle/caches/transforms-3/ae897557e68045f1818f360e6ec10ba3/transformed/android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /home/sabin/.gradle/caches/transforms-3/ae897557e68045f1818f360e6ec10ba3/transformed/android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sabin/.gradle/caches/transforms-3/8ce0df73a59e558f575414d609d36b92/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sabin/.gradle/caches/transforms-3/8ce0df73a59e558f575414d609d36b92/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/sabin/.gradle/caches/transforms-3/7857cd03ef053b110ff12690706d44ba/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/sabin/.gradle/caches/transforms-3/7857cd03ef053b110ff12690706d44ba/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/ae43e59ee27e8ac602ccb852bea482eb/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/ae43e59ee27e8ac602ccb852bea482eb/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sabin/.gradle/caches/transforms-3/750b143fec3a4c9c4120ee33db11b43c/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sabin/.gradle/caches/transforms-3/750b143fec3a4c9c4120ee33db11b43c/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sabin/.gradle/caches/transforms-3/9738cc9f124e67c188d3a239feada12a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sabin/.gradle/caches/transforms-3/9738cc9f124e67c188d3a239feada12a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/sabin/.gradle/caches/transforms-3/b38068b7019bea5cee41f2c664c3487b/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/sabin/.gradle/caches/transforms-3/b38068b7019bea5cee41f2c664c3487b/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/sabin/.gradle/caches/transforms-3/c26d442db09d0d08f0a5238a31b14aaa/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/sabin/.gradle/caches/transforms-3/c26d442db09d0d08f0a5238a31b14aaa/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/sabin/.gradle/caches/transforms-3/f4eb0461f97686bee9c51896bf0ef074/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/sabin/.gradle/caches/transforms-3/f4eb0461f97686bee9c51896bf0ef074/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sabin/.gradle/caches/transforms-3/6d8d3f4c3fc45e4e213069df0a465897/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sabin/.gradle/caches/transforms-3/6d8d3f4c3fc45e4e213069df0a465897/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sabin/.gradle/caches/transforms-3/f8b08c5921bc817d4f76a796e2580acf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sabin/.gradle/caches/transforms-3/f8b08c5921bc817d4f76a796e2580acf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sabin/.gradle/caches/transforms-3/a0a92f0d5b3d431fc6c0b251d6804705/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sabin/.gradle/caches/transforms-3/a0a92f0d5b3d431fc6c0b251d6804705/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sabin/.gradle/caches/transforms-3/b390e281cbfffde679d2982762867c3f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sabin/.gradle/caches/transforms-3/b390e281cbfffde679d2982762867c3f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sabin/.gradle/caches/transforms-3/819436423a2822097c55a5ac38231da2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sabin/.gradle/caches/transforms-3/819436423a2822097c55a5ac38231da2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sabin/.gradle/caches/transforms-3/6a28cd330caff2e53e1e642b857fa805/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sabin/.gradle/caches/transforms-3/6a28cd330caff2e53e1e642b857fa805/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sabin/.gradle/caches/transforms-3/3da911e04a328fe13048bd5e2f69e7f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sabin/.gradle/caches/transforms-3/3da911e04a328fe13048bd5e2f69e7f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sabin/.gradle/caches/transforms-3/6ef1b7ae5d7044c182a5a09a002b1c8f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sabin/.gradle/caches/transforms-3/6ef1b7ae5d7044c182a5a09a002b1c8f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sabin/.gradle/caches/transforms-3/22a96163e48a9af14aeecda496ee28cf/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sabin/.gradle/caches/transforms-3/22a96163e48a9af14aeecda496ee28cf/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sabin/.gradle/caches/transforms-3/fa53f186f02498d1359cc0706b9c9ca7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sabin/.gradle/caches/transforms-3/fa53f186f02498d1359cc0706b9c9ca7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sabin/.gradle/caches/transforms-3/575010955cd06a2118a242e53bb9a703/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sabin/.gradle/caches/transforms-3/575010955cd06a2118a242e53bb9a703/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sabin/.gradle/caches/transforms-3/479bfc522e1288c72f980d0199956bed/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sabin/.gradle/caches/transforms-3/479bfc522e1288c72f980d0199956bed/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sabin/.gradle/caches/transforms-3/d0c36b56ee045d975d62935e55b6ab78/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sabin/.gradle/caches/transforms-3/d0c36b56ee045d975d62935e55b6ab78/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sabin/.gradle/caches/transforms-3/ff5bb29851bee9e462bc577cda0460c7/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sabin/.gradle/caches/transforms-3/ff5bb29851bee9e462bc577cda0460c7/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sabin/.gradle/caches/transforms-3/a871b9e8c411ce33d64773efd6088966/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sabin/.gradle/caches/transforms-3/a871b9e8c411ce33d64773efd6088966/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sabin/.gradle/caches/transforms-3/0e4b3ed69ba1d5ef69295186a3ec6b84/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sabin/.gradle/caches/transforms-3/0e4b3ed69ba1d5ef69295186a3ec6b84/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/sabin/.gradle/caches/transforms-3/c55275c1c19fa4063dbf60730870a8bc/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/sabin/.gradle/caches/transforms-3/c55275c1c19fa4063dbf60730870a8bc/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/sabin/.gradle/caches/transforms-3/35edd43b70decba91a37320c9bfd2a18/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/sabin/.gradle/caches/transforms-3/35edd43b70decba91a37320c9bfd2a18/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sabin/.gradle/caches/transforms-3/660fb327dde20171876adbf1f31eb174/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sabin/.gradle/caches/transforms-3/660fb327dde20171876adbf1f31eb174/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sabin/.gradle/caches/transforms-3/4ffc9a8ad02c91f73376e476591128f2/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sabin/.gradle/caches/transforms-3/4ffc9a8ad02c91f73376e476591128f2/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sabin/.gradle/caches/transforms-3/a464403484bdac61ef3cf53dec336102/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sabin/.gradle/caches/transforms-3/a464403484bdac61ef3cf53dec336102/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sabin/.gradle/caches/transforms-3/fe7a914480ce42aea2fa390501691159/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sabin/.gradle/caches/transforms-3/fe7a914480ce42aea2fa390501691159/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/sabin/.gradle/caches/transforms-3/6263b7f6c46bc9215157cb5b58cc5c0a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/sabin/.gradle/caches/transforms-3/6263b7f6c46bc9215157cb5b58cc5c0a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sabin/.gradle/caches/transforms-3/e0ceb94277256599d652d7b596f3a17a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sabin/.gradle/caches/transforms-3/e0ceb94277256599d652d7b596f3a17a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sabin/.gradle/caches/transforms-3/63a69ce68fa557e382b8a43f04a2feb0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sabin/.gradle/caches/transforms-3/63a69ce68fa557e382b8a43f04a2feb0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sabin/.gradle/caches/transforms-3/595962d6a0a0709ee60c9d883226ca12/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sabin/.gradle/caches/transforms-3/595962d6a0a0709ee60c9d883226ca12/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sabin/.gradle/caches/transforms-3/b647bbc2c3b0e3c8c570d50953c65e7e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sabin/.gradle/caches/transforms-3/b647bbc2c3b0e3c8c570d50953c65e7e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sabin/.gradle/caches/transforms-3/a5a7311960bf5c1bff5fb80410424df2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sabin/.gradle/caches/transforms-3/a5a7311960bf5c1bff5fb80410424df2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sabin/.gradle/caches/transforms-3/5935097190010156f23c456f5b50117c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sabin/.gradle/caches/transforms-3/5935097190010156f23c456f5b50117c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids:relinker:1.3.1] /home/sabin/.gradle/caches/transforms-3/468512020edc2ae759b45f92b083406a/transformed/relinker-1.3.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] /home/sabin/.gradle/caches/transforms-3/468512020edc2ae759b45f92b083406a/transformed/relinker-1.3.1/AndroidManifest.xml:5:5-43
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		ADDED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/sabin/.gradle/caches/transforms-3/a8b99a316ef34d8edbf1d1f4be2f1ad8/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

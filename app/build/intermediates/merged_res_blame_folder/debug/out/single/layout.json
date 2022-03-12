@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_entry_journal.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_entry_journal.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_landing.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_landing.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_maps.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_location_access.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_location_access.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login_page.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_googlelogin.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_googlelogin.xml"
+    },
+    {
+        "merged": "/home/sabin/Documents/googlelogin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_signup_page.xml",
+        "source": "/home/sabin/Documents/googlelogin/app/src/main/res/layout/activity_signup_page.xml"
+    }
+]

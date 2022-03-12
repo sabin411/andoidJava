@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="fadedBlack">#999999</color>
+    <color name="fontBlueColor">#10153A</color>
+    <color name="primaryBlue">#263238</color>
+    <color name="primaryColor">#92E3A9</color>
+    <color name="primaryGrey">#EBEBEB</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#F44336</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="JourneyJournal">Journey-Journal</string>
+    <string name="Login">Log In</string>
+    <string name="Signup">Sign up</string>
+    <string name="WelcomeBackTxt">Welcome Back</string>
+    <string name="address">Address</string>
+    <string name="app_name">googlelogin</string>
+    <string name="descriptionHint">Description</string>
+    <string name="email">Email</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <string name="googlesigning">894542828299-5aj4flh545m7ak9k2m7g3g098rgrr2ju.apps.googleusercontent.com</string>
+    <string name="headerTitle">Here Take\nYour First\n Step</string>
+    <string name="journeyTitle">Enter your journal</string>
+    <string name="loginHeader">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="titleHint">Enter Journey title</string>
+    <string name="title_activity_location_access">LocationAccess</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="yourLocation">Your Location</string>
+    <style name="Theme.Googlelogin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

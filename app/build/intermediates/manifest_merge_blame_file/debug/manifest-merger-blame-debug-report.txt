@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.googlelogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:5:5-81
+11-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+17-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:22-64
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <application
+29-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:9:5-71:19
+30        android:allowBackup="true"
+30-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:10:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] /home/sabin/.gradle/caches/transforms-3/19993721b14e547f735b9fa1d0b1eaa2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:11:9-43
+35        android:label="@string/app_name"
+35-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:12:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:13:9-54
+37        android:supportsRtl="true"
+37-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:14:9-35
+38        android:theme="@style/Theme.Googlelogin" >
+38-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:15:9-49
+39        <activity
+39-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:16:9-18:40
+40            android:name="com.example.googlelogin.SignupPage"
+40-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:17:13-39
+41            android:exported="false" />
+41-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:18:13-37
+42        <activity
+42-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:19:9-21:40
+43            android:name="com.example.googlelogin.LoginPage"
+43-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:20:13-38
+44            android:exported="false" />
+44-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:21:13-37
+45        <!--
+46             TODO: Before you run your application, you need a Google Maps API key.
+47
+48             To get one, follow the directions here:
+49
+50                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+51
+52             Once you have your API key (it starts with "AIza"), define a new property in your
+53             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+54             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+55        -->
+56        <meta-data
+56-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:33:9-35:44
+57            android:name="com.google.android.geo.API_KEY"
+57-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:34:13-58
+58            android:value="YOUR_API_KEY" />
+58-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:35:13-41
+59
+60        <activity
+60-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:37:9-40:70
+61            android:name="com.example.googlelogin.ActivityLocationAccess"
+61-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:38:13-51
+62            android:exported="false"
+62-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:39:13-37
+63            android:label="@string/title_activity_location_access" />
+63-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:40:13-67
+64        <activity
+64-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:41:9-49:20
+65            android:name="com.example.googlelogin.LandingActivity"
+65-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:42:13-44
+66            android:exported="true" >
+66-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:43:13-36
+67            <intent-filter>
+67-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:44:13-48:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:17-69
+68-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:17-77
+70-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:50:9-58:20
+74            android:name="com.example.googlelogin.ActivityEntryJournal"
+74-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:51:13-49
+75            android:exported="true" >
+75-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:52:13-36
+76            <intent-filter>
+76-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:44:13-48:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:17-69
+77-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:17-77
+79-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:59:9-61:39
+83            android:name="com.example.googlelogin.googlelogin"
+83-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:60:13-40
+84            android:exported="true" />
+84-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:61:13-36
+85        <activity
+85-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:62:9-70:20
+86            android:name="com.example.googlelogin.MainActivity"
+86-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:63:13-41
+87            android:exported="true" >
+87-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:64:13-36
+88            <intent-filter>
+88-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:44:13-48:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:17-69
+89-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:45:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:17-77
+91-->/home/sabin/Documents/googlelogin/app/src/main/AndroidManifest.xml:47:27-74
+92            </intent-filter>
+93        </activity>
+94
+95        <service
+95-->[androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+96            android:name="androidx.room.MultiInstanceInvalidationService"
+96-->[androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+97            android:directBootAware="true"
+97-->[androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+98            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+98-->[androidx.room:room-runtime:2.4.2] /home/sabin/.gradle/caches/transforms-3/5002534d3e336018d7c539126833c08f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+99        <uses-library
+99-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+100            android:name="org.apache.http.legacy"
+100-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+101            android:required="false" />
+101-->[com.google.android.gms:play-services-maps:18.0.2] /home/sabin/.gradle/caches/transforms-3/b6a7dc8e5b0e4d0eb76b11827beb6de3/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+102
+103        <activity
+103-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+104            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+104-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+105            android:excludeFromRecents="true"
+105-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+108        <!--
+109            Service handling Google Sign-In user revocation. For apps that do not integrate with
+110            Google Sign-In, this service will never be started.
+111        -->
+112        <service
+112-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+113            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+113-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+114            android:exported="true"
+114-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+115            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+115-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+116            android:visibleToInstantApps="true" />
+116-->[com.google.android.gms:play-services-auth:20.1.0] /home/sabin/.gradle/caches/transforms-3/a7bffb5f6edae29deb1c6388ab316ec1/transformed/play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:18.0.1] /home/sabin/.gradle/caches/transforms-3/7a0b649d5a4053476f37b10320633ffe/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.0.0] /home/sabin/.gradle/caches/transforms-3/3c67d04d5a50d53f72139c4d78194ee2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+126
+127        <provider
+127-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+128            android:name="androidx.startup.InitializationProvider"
+128-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+129            android:authorities="com.example.googlelogin.androidx-startup"
+129-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+130            android:exported="false" >
+130-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+131            <meta-data
+131-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+132-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+133                android:value="androidx.startup" />
+133-->[androidx.emoji2:emoji2:1.0.0] /home/sabin/.gradle/caches/transforms-3/9cf2aa9a12f60887ce314a502b4c97d6/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+134            <meta-data
+134-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+136                android:value="androidx.startup" />
+136-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sabin/.gradle/caches/transforms-3/ab4adf534828c88ac92d3ae3d977accc/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+137        </provider>
+138    </application>
+139
+140</manifest>
