@@ -5,6 +5,7 @@ import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -29,10 +30,14 @@ import java.util.List;
 //        User findByName(String first, String last);
 
         @Insert
-        void insertAll(User... users);
+        long insertAll(User users);
 
         @Delete
         void delete(User user);
+
+        @Update
+        void update(User user);
+
     }
 
 

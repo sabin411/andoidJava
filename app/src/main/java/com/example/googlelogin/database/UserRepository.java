@@ -18,4 +18,8 @@ public class UserRepository {
         LiveData<List<User>> getLiveUsers(){
             return userDao.getUsersLiveData();
         }
+        // to insert user information
+    public long insertUser(User user){
+        return userDao.insertAll(user);
+    }
 }

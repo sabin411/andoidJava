@@ -54,6 +54,7 @@
             android:layout_height="wrap_content"
             app:boxStrokeColor="@color/primaryColor"
             app:errorEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
             app:layout_constraintTop_toBottomOf="@+id/loginHeader"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
@@ -64,9 +65,10 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailInputField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
+                android:inputType="textEmailAddress"
                 android:backgroundTint="@color/white"
 
                 />
@@ -88,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/emailInput"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
             app:startIconContentDescription="@string/password"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
@@ -100,6 +103,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordInputField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"

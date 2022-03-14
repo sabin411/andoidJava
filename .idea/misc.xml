@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1225" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_entry_journal.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_googlelogin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_journal_entity.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_journay_entry.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_landing.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_landing.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_location_access.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17119565217391305" />
-        <entry key="app/src/main/res/layout/activity_signup_page.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_signup_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.33" />
         <entry key="app/src/main/res/xml/provider_path.xml" value="0.19322916666666667" />

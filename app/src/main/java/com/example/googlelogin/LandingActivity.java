@@ -11,7 +11,7 @@ import com.google.android.material.button.MaterialButton;
 public class LandingActivity extends AppCompatActivity {
 
     private MaterialButton loginBtn;
-    private MaterialButton signupBtn;
+    private Button signupBtn;
 
 
 

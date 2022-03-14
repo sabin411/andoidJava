@@ -33,7 +33,8 @@ public class ActivityEntryJournal extends AppCompatActivity implements View.OnCl
     private LocationManager locationManager;
     private Button openCameraBtn;
     private ImageView imageView;
-    private AppCompatEditText title, description;
+    private AppCompatTextView title;
+    private AppCompatEditText description;
     private AppCompatImageButton addLocation;
     private AppCompatTextView txtLocation;
     private AppCompatButton saveJournal;
