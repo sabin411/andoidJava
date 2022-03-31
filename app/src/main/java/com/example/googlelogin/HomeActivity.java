@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 
 import android.Manifest;
 import android.app.Activity;
@@ -17,6 +18,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -28,10 +30,14 @@ import android.widget.Toast;
 
 import com.example.googlelogin.Journal.JournalRepository;
 import com.google.android.gms.cast.framework.media.ImagePicker;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -39,12 +45,15 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
 public class HomeActivity extends AppCompatActivity {
+    public static final int CAMERA_REQUEST_CODE = 101;
     private TextInputEditText editDate;
     private AppCompatEditText location;
     private ImageView imageView;
@@ -57,8 +66,10 @@ public class HomeActivity extends AppCompatActivity {
     private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_PICK_CODE = 1001;
     Uri imageUri;
-    FirebaseAuth fireAuth;
+    FirebaseAuth mAuth;
     FirebaseStorage firebaseStorage;
+    DatabaseReference reference;
+    String currentPhotoPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -142,6 +153,9 @@ public class HomeActivity extends AppCompatActivity {
         progressDialog.show();
 
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
+        FirebaseUser rUser = FirebaseAuth.getInstance().getCurrentUser();
+        String userId = rUser.getUid();
+
         final StorageReference storageReference = firebaseStorage.getReference("Photos").child("Image1" +new Random().nextInt(60));
 
         storageReference.putFile(imageUri)
@@ -154,30 +168,46 @@ public class HomeActivity extends AppCompatActivity {
                         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                             @Override
                             public void onSuccess(Uri uri) {
+                                reference = FirebaseDatabase.getInstance().getReference("JournalEntries").child(userId);
+                                String entryKey = reference.push().getKey();
 
                                 RecViewDataHolder object = new RecViewDataHolder(
                                         editDate.getText().toString(),
                                         title.getText().toString(),
                                         description.getText().toString(),
                                         location.getText().toString(),
-                                        uri.toString());
-
-
-                                FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-                                DatabaseReference databaseReference = firebaseDatabase.getReference("JournalEntries").child(Dashboard.uid);
-                                databaseReference.push().setValue(object);
-
-
-                                editDate.setText("");
-                                title.setText("");
-                                description.setText("");
-                                location.setText("");
-                                imageView.setImageResource(R.drawable.ic_launcher_background);
-
-                                Toast.makeText(getApplicationContext(), "Saved", Toast.LENGTH_SHORT).show();
-
-                                startActivity(new Intent(HomeActivity.this, Dashboard.class));
-                                finish();
+                                        uri.toString(),
+                                        userId,
+                                        entryKey
+                                        );
+                                reference.child(entryKey).setValue(object).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if(task.isSuccessful()){
+                                            Toast.makeText(getApplicationContext(), "Journal Saved successfully!", Toast.LENGTH_SHORT).show();
+                                            startActivity(new Intent(HomeActivity.this, Dashboard.class));
+                                            finish();
+                                        }
+                                        else{
+                                            Toast.makeText(getApplicationContext(), "Failed to add journal:(", Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                }).addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        Toast.makeText(getApplicationContext(), "An error occurred while adding journal:(", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+//babe ko yo chai hai paxi gayera milena vnai chai un comment garna parxa
+//                                FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+//                                DatabaseReference databaseReference = firebaseDatabase.getReference("JournalEntries").child(Dashboard.uid);
+//                                databaseReference.push().setValue(object);
+// yaa samma
+//                                editDate.setText("");
+//                                title.setText("");
+//                                description.setText("");
+//                                location.setText("");
+//                                imageView.setImageResource(R.drawable.ic_launcher_background);
 
                             }
                         });
@@ -226,6 +256,23 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+    private File createImageFile() throws IOException {
+        // Create an image file name
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageFileName = "JPEG_" + timeStamp + "_";
+//        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        File image = File.createTempFile(
+                imageFileName,  /* prefix */
+                ".jpg",         /* suffix */
+                storageDir      /* directory */
+        );
+
+        // Save a file: path for use with ACTION_VIEW intents
+        currentPhotoPath = image.getAbsolutePath();
+        return image;
+    }
+
     int code = 102;
     void checkAndRequestPermissions(){
         if(checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
@@ -233,8 +280,23 @@ public class HomeActivity extends AppCompatActivity {
         }
         else if(code == 102){
             Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            startActivityForResult(cameraIntent, 101);
-//            launchCameraIntent.launch(cameraIntent);
+
+            File imagefile = null;
+            try{
+                imagefile = createImageFile();
+            }
+            catch(IOException ex) {
+                    Toast.makeText(this, "Error: " + ex, Toast.LENGTH_SHORT).show();
+            }
+            if(imagefile != null){
+                Uri photoURI = FileProvider.getUriForFile(this,
+                        "com.example.googlelogin.android.fileprovider",
+                        imagefile);
+                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                startActivityForResult(cameraIntent, CAMERA_REQUEST_CODE);
+            }
+//            startActivityForResult(cameraIntent, 101);
+////            launchCameraIntent.launch(cameraIntent);
         }
         else{
             Intent gallery = new Intent();
@@ -250,17 +312,35 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
         super.onActivityResult(requestCode, resultCode, data);
-        imageUri = data.getData();
-        if(requestCode == 101 && resultCode == Activity.RESULT_OK){
-            Bitmap photo = (Bitmap) data.getExtras().get("data");
-            imageView.setImageBitmap(photo);
 
+        if(requestCode == CAMERA_REQUEST_CODE){
+            Toast.makeText(this, "hope its working", Toast.LENGTH_SHORT).show();
+            File f = new File(currentPhotoPath);
+            imageView.setImageURI(Uri.fromFile(f));
+            Log.d("tag", "Absolute url of image is " + Uri.fromFile(f));
+            Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+            Uri contentUri = Uri.fromFile(f);
+            mediaScanIntent.setData(contentUri);
+            this.sendBroadcast(mediaScanIntent);
+            imageUri = Uri.fromFile(f);
+            return;
+//            uploadImageToFirebase(f.getName(),contentUri);
         }
+
+//        imageUri = data.getData();
+//        if(requestCode == 101 && resultCode == Activity.RESULT_OK){
+//            Bitmap photo = (Bitmap) data.getExtras().get("data");
+//            imageView.setImageBitmap(photo);
+//
+//        }
 //        else if(requestCode == 102 && resultCode == Activity.RESULT_OK){
 //            Log.e("select response", data.getExtras().get("data").toString());
 //        }
-        else if (resultCode == RESULT_OK && requestCode == IMAGE_PICK_CODE) {
-            imageView.setImageURI(data.getData());
+         if (resultCode == RESULT_OK && requestCode == IMAGE_PICK_CODE) {
+                     imageUri = data.getData();
+
+             imageView.setImageURI(data.getData());
+            return;
         }
 
     }

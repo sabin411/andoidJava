@@ -33,11 +33,14 @@ public class Dashboard extends AppCompatActivity {
     RecAdapter adapter;
     static String uid;
     DatabaseReference databaseReference;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+//        Firebase authentication
+        mAuth = FirebaseAuth.getInstance();
 
         uid = getIntent().getStringExtra("uid");
 
@@ -54,7 +57,7 @@ public class Dashboard extends AppCompatActivity {
                         .setQuery(databaseReference, RecViewDataHolder.class)
                         .build();
 
-        adapter = new RecAdapter(options);
+        adapter = new RecAdapter(options, this);
         recViewDashboard.setAdapter(adapter);
 
         // for addJournal button
@@ -71,6 +74,7 @@ public class Dashboard extends AppCompatActivity {
         logoutbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mAuth.signOut();
                 startActivity(new Intent(Dashboard.this, LandingActivity.class));
                 Toast.makeText(getApplicationContext(), "Logged out successfully", Toast.LENGTH_SHORT).show();
 
