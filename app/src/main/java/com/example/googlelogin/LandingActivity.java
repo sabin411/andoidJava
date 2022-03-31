@@ -19,7 +19,9 @@ public class LandingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
-        signupBtn = findViewById(R.id.signupBtn);
+
+
+        signupBtn = (Button) findViewById(R.id.signupBtn);
         loginBtn = findViewById(R.id.loginBtn);
 
 
@@ -29,8 +31,10 @@ public class LandingActivity extends AppCompatActivity {
             startActivity(intent);
         });
         signupBtn.setOnClickListener(view -> {
-            Intent signupIntent = new Intent(LandingActivity.this, SignupPage.class);
-            startActivity(signupIntent);
+            Intent signupIntent = new Intent(LandingActivity.this, SecSignupPage.class);
+        startActivity(signupIntent);
+
+
         });
     }
 }

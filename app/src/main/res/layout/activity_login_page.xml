@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -61,7 +62,6 @@
             android:hint="Email"
             android:layout_marginTop="20dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -137,14 +137,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/forgotPassword"
-            app:layout_constraintTop_toBottomOf="@id/loginButtonId"
-            android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="20dp"
+            android:text="@string/forgotPassword"
+            android:textAlignment="center"
+            android:textColor="@color/fadedBlack"
+            android:textSize="15dp"
             android:textStyle="bold"
-            android:textColor="@color/fontBlueColor"
-            />
+            app:layout_constraintTop_toBottomOf="@id/loginButtonId"
+            tools:layout_editor_absoluteX="-137dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

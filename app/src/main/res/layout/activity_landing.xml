@@ -19,21 +19,38 @@
             android:id="@+id/landingHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/JourneyJournal"
-            android:textSize="35dp"
+            android:text="@string/journeyLand"
+            android:textSize="29dp"
             android:textStyle="bold"
             android:textColor="@color/primaryBlue"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/loginSubHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/landingHeader"
+            android:text="We write to taste life twice, in the moment and in retrospect."
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="@color/fadedBlack"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
             />
 
 <pl.droidsonroids.gif.GifImageView
     android:id="@+id/gif"
     android:layout_width="wrap_content"
-    android:layout_height="550dp"
-    app:layout_constraintTop_toBottomOf="@id/landingHeader"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/loginSubHeading"
     android:src="@drawable/traveling_gif"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
@@ -47,37 +64,62 @@
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gif"
+            app:layout_constraintBottom_toBottomOf="parent"
             android:padding="15dp"
             android:text="@string/Login"
             android:layout_marginLeft="10dp"
             android:textSize="25dp"
             android:textColor="@color/primaryBlue"
+            app:layout_constraintTop_toBottomOf="@id/gif"
             android:textStyle="bold"
             android:backgroundTint="@color/primaryColor"
             app:strokeColor="@color/primaryColor"
             app:strokeWidth="2dp"
             app:cornerRadius="30dp"
             />
-<!--        <com.google.android.material.button.MaterialButton-->
-        <Button
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/signupBtn"
             android:paddingTop="10dp"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gif"
+            app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginRight="10dp"
             android:padding="15dp"
             android:text="@string/Signup"
             android:textSize="25dp"
             android:textColor="@color/primaryBlue"
+            app:layout_constraintTop_toBottomOf="@id/gif"
             android:textStyle="bold"
             android:backgroundTint="@color/primaryGrey"
             app:strokeColor="@color/primaryGrey"
             app:strokeWidth="2dp"
             app:cornerRadius="30dp"
             />
+
+
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/signupBtn"-->
+<!--            android:paddingTop="10dp"-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:text="@string/Signup"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textColor="@color/primaryBlue"-->
+<!--            android:textStyle="bold"-->
+<!--            android:backgroundTint="@color/primaryGrey"-->
+<!--            app:strokeColor="@color/primaryGrey"-->
+<!--            app:strokeWidth="2dp"-->
+<!--            app:cornerRadius="30dp"-->
+<!--            />-->
 
 
 

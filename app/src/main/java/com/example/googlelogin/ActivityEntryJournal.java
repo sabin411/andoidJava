@@ -29,16 +29,16 @@ import android.widget.ImageView;
 import com.example.googlelogin.Journal.Journal;
 import com.example.googlelogin.Journal.JournalRepository;
 
-public class ActivityEntryJournal extends AppCompatActivity implements View.OnClickListener, LocationListener {
-    private LocationManager locationManager;
+public class ActivityEntryJournal extends AppCompatActivity { // LocationListener
+//    private LocationManager locationManager;
     private Button openCameraBtn;
     private ImageView imageView;
     private AppCompatTextView title;
     private AppCompatEditText description;
-    private AppCompatImageButton addLocation;
-    private AppCompatTextView txtLocation;
+//    private AppCompatImageButton addLocation;
+//    private AppCompatTextView txtLocation;
     private AppCompatButton saveJournal;
-    private Location location;
+//    private Location location;
     private JournalRepository repository;
 
     @Override
@@ -49,13 +49,13 @@ public class ActivityEntryJournal extends AppCompatActivity implements View.OnCl
         repository = new JournalRepository(this);
         title = findViewById(R.id.journeyTitle);
         description = findViewById(R.id.description);
-        addLocation = findViewById(R.id.addLocation);
-        txtLocation = findViewById(R.id.txtLocation);
+//        addLocation = findViewById(R.id.addLocation);
+//        txtLocation = findViewById(R.id.txtLocation);
         saveJournal = findViewById(R.id.saveJournal);
 
-        saveJournal.setOnClickListener(this);
-        addLocation.setOnClickListener(this);
-        accessLocationService();
+//        saveJournal.setOnClickListener(this);
+//        addLocation.setOnClickListener(this);
+//        accessLocationService();
 
 
         openCameraBtn = findViewById(R.id.openCameraBtn);
@@ -65,26 +65,26 @@ public class ActivityEntryJournal extends AppCompatActivity implements View.OnCl
 
         });
     }
-    @Override
-    public void onClick(View v){
-        if (v.getId() == R.id.saveJournal) {
-            if(checkValues()){
-                long check = repository.insertJournal(
-                        new Journal(
-                                title.getText().toString(),
-                                description.getText().toString(),
-                                "",
-                                "",
-                                location.getLatitude(),
-                                location.getLongitude(),
-                                0));
-                Log.e("inserted",check+"");
-            }
-        } else if (v.getId() == R.id.addLocation) {
-            if (location != null)
-                txtLocation.setText("lat: " + location.getLatitude() + ", lng: " + location.getLongitude());
-        }
-    }
+//    @Override
+//    public void onClick(View v){
+//        if (v.getId() == R.id.saveJournal) {
+//            if(checkValues()){
+//                long check = repository.insertJournal(
+//                        new Journal(
+//                                title.getText().toString(),
+//                                description.getText().toString(),
+//                                "",
+//                                "",
+//                                location.getLatitude(),
+//                                location.getLongitude(),
+//                                0));
+//                Log.e("inserted",check+"");
+//            }
+//        } else if (v.getId() == R.id.addLocation) {
+//            if (location != null)
+//                txtLocation.setText("lat: " + location.getLatitude() + ", lng: " + location.getLongitude());
+//        }
+//    }
 
     private boolean checkValues(){
         String t = title.getText().toString().trim();
@@ -112,10 +112,10 @@ public class ActivityEntryJournal extends AppCompatActivity implements View.OnCl
 //            launchCameraIntent.launch(cameraIntent);
         }
         else{
-//            Intent gallery = new Intent();
-//            gallery.setAction(Intent.ACTION_VIEW);
-//            gallery.setType("img/*");
-//            startActivityForResult(gallery, 102);
+            Intent gallery = new Intent();
+            gallery.setAction(Intent.ACTION_VIEW);
+            gallery.setType("img/*");
+            startActivityForResult(gallery, 102);
 
             Intent intent = new Intent(Intent.ACTION_PICK);
             startActivityForResult(intent, 103);
@@ -135,26 +135,26 @@ public class ActivityEntryJournal extends AppCompatActivity implements View.OnCl
     }
 
 //    for location retrive
-    private  void accessLocationService(){
-        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        if (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
-                ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
-    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 0, this);
-    }
+//    private  void accessLocationService(){
+//        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//        if (ActivityCompat.checkSelfPermission(this,
+//                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+//                ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//            // TODO: Consider calling
+//            //    ActivityCompat#requestPermissions
+//            // here to request the missing permissions, and then overriding
+//            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+//            //                                          int[] grantResults)
+//            // to handle the case where the user grants the permission. See the documentation
+//            // for ActivityCompat#requestPermissions for more details.
+//            return;
+//        }
+//    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 0, this);
+//    }
 
-    @Override
-    public void onLocationChanged(@NonNull Location location) {
-        this.location = location;
-        Log.e("current Location", location.getLatitude() + ", " + location.getLongitude());
-    }
+//    @Override
+//    public void onLocationChanged(@NonNull Location location) {
+//        this.location = location;
+//        Log.e("current Location", location.getLatitude() + ", " + location.getLongitude());
+//    }
 }

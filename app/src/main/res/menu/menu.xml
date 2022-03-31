@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/ic_home"
+            android:title="@string/Home"/>
+
+        <item android:id="@+id/general_menu"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/general"/>
+
+        <item android:id="@+id/theme_menu"
+            android:icon="@drawable/ic_theme"
+            android:title="@string/theme"/>
+
+    </group>
+
+    <item android:title="Communicate">
+    <menu>
+        <item android:id="@+id/share_menu"
+            android:icon="@drawable/ic_share"
+            android:title="@string/shareapp"/>
+
+        <item
+            android:id="@+id/help_menu"
+            android:icon="@drawable/ic_follow"
+            android:title="@string/follow"/>
+
+
+
+    </menu>
+    </item>
+
+    <item android:title="Authentication">
+        <menu>
+            <item android:id="@+id/security"
+                android:icon="@drawable/ic_security"
+                android:title="@string/security"/>
+
+            <item android:id="@+id/logout_menu"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout"/>
+
+        </menu>
+    </item>
+</menu>

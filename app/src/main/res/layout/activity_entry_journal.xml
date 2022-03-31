@@ -26,16 +26,18 @@
         app:layout_constraintTop_toBottomOf="@+id/journeyTitle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/notes"
         />
     <Button
         android:id="@+id/openCameraBtn"
         app:layout_constraintTop_toBottomOf="@id/imageView"
-
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OpenCamera"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/black"
+        android:text="Open Camera"
         />
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -43,53 +45,118 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/titleHint"
-        android:padding="10dp"
+        android:textSize="20dp"
         app:layout_constraintTop_toBottomOf="@id/openCameraBtn"
-        />
+        android:padding="15dp" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/descriptionHint"
-        android:padding="10dp"
+        android:padding="15dp"
         app:layout_constraintTop_toBottomOf="@id/title"
         />
+<!--for location-->
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:id="@+id/layoutLocation"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/description">-->
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/layoutLocation"
-        app:layout_constraintTop_toBottomOf="@id/description">
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/txtLocation"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.7"-->
+<!--            android:padding="10dp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/description"-->
+<!--            android:textSize="15dp"-->
+<!--            android:text="@string/yourLocation"/>-->
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/txtLocation"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.7"
-            android:padding="10dp"
-            app:layout_constraintTop_toBottomOf="@id/description"
-            android:textSize="15dp"
-            android:text="@string/yourLocation"/>
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:id="@+id/addLocation"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_baseline_add_location_alt_24" />-->
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/addLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_add_location_alt_24" />
-
-    </androidx.appcompat.widget.LinearLayoutCompat>
+<!--    </androidx.appcompat.widget.LinearLayoutCompat>-->
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/saveJournal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/layoutLocation"
+        app:layout_constraintTop_toBottomOf="@id/description"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="Add"
+        android:text="save"
         android:backgroundTint="@color/primaryColor"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintLeft_toLeftOf="parent"
         />
+
+<!--    code for fab 5 button-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:backgroundTint="@color/primaryColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_gallery" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton2"
+        app:srcCompat="@drawable/ic_location" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton3"
+        app:srcCompat="@drawable/ic_sunny" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_emoji" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
