@@ -8,9 +8,15 @@
         <entry key="app/src/main/res/layout/activity_googlelogin.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.3092113771300385" />
         <entry key="app/src/main/res/layout/activity_journal_entry.xml" value="0.21331521739130435" />
-        <entry key="app/src/main/res/layout/activity_landing.xml" value="0.17844202898550723" />
+        <entry key="app/src/main/res/layout/activity_landing.xml" value="0.2623989381651948" />
+        <entry key="app/src/main/res/layout/activity_location_access.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21331521739130435" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_sec_signup_page.xml" value="0.21331521739130435" />
+        <entry key="app/src/main/res/layout/activity_signup_page.xml" value="0.31436111929448063" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/item_view.xml" value="0.33842813243036685" />
         <entry key="app/src/main/res/layout/update_journal.xml" value="0.21331521739130435" />
       </map>

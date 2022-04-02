@@ -1,8 +1,13 @@
 package com.example.googlelogin;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.Image;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -33,6 +38,10 @@ import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.ViewHolder;
 import com.squareup.picasso.Picasso;
 
+import java.io.ByteArrayOutputStream;
+import java.net.ConnectException;
+import java.net.URI;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -59,7 +68,7 @@ public class RecAdapter extends FirebaseRecyclerAdapter<RecViewDataHolder,RecAda
             public void onClick(View view) {
                 final DialogPlus dialogPlus=DialogPlus.newDialog(holder.imageJournal.getContext())
                         .setContentHolder(new ViewHolder(R.layout.update_journal))
-                        .setExpanded(true,1550)
+                        .setExpanded(true,2250)
                         .create();
                 View myview=dialogPlus.getHolderView();
                 TextInputEditText updateDate=myview.findViewById(R.id.updateDate);
@@ -134,6 +143,7 @@ public class RecAdapter extends FirebaseRecyclerAdapter<RecViewDataHolder,RecAda
             FirebaseDatabase.getInstance().getReference().child("JournalEntries/"+model.getUserId()+"/"+model.getJournalKey()).removeValue();
             Toast.makeText(holder.titleJournal.getContext(), "The journal has been deleted!", Toast.LENGTH_SHORT).show();
         });
+
         //function to share journal
         holder.shareJournal.setOnClickListener(view -> {
             String placeName = holder.titleJournal.getText().toString().trim();
@@ -141,12 +151,12 @@ public class RecAdapter extends FirebaseRecyclerAdapter<RecViewDataHolder,RecAda
             String placeDescription = model.getDescription();
             String location = holder.locationJournal.getText().toString().trim();
 
-            Uri placeImage = Uri.parse(holder.imageJournal.getContext().toString());
-            Log.d("TAG", "onBindViewHolder: "+ placeImage);
+
+            // converting uri into bitmap
             Intent sendIntent = new Intent();
+            sendIntent.setType("text/plain");
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_STREAM, placeImage);
-            sendIntent.setType("image/*");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, model.getImage() + "\n <a ></a><p></p>: "+model.getTitle() + "\n Summary: " + model.getDescription() + "\n Visited at: "+ model.getDate() + "\n Lies at: " + model.getLocation());
 //            sendIntent.putExtra(Intent.EXTRA_TEXT, "Visited to: "+placeName);
 //            sendIntent.setType("text/html");
 //
@@ -160,7 +170,6 @@ public class RecAdapter extends FirebaseRecyclerAdapter<RecViewDataHolder,RecAda
 //            sendIntent.setType("text/html");
 
             Intent shareIntent = Intent.createChooser(sendIntent, null);
-
             context.startActivity(shareIntent);
         });
 
